@@ -15,10 +15,12 @@ class Solution:
 #           del nums[0]
 #       return nums
 
-# Logically
-# void rotate(int nums[], int n, int k) {
-#     reverse(nums,nums+n);
-#     reverse(nums,nums+k%n);
-#     reverse(nums+k%n,nums+n);
-# }
 
+
+
+# another logically useful thing to remember
+# reverse the first n - k elements
+
+# reverse the rest of them
+
+# reverse the entire array
